@@ -106,7 +106,9 @@ int main(){
                 if(mesa[i] == 0){
                     printf("Cliente alocado na mesa: %d", i);
                     mesa[i] = 1;
+                    contador = 0;
                     break;
+                    
                 }
                 if (i==10)
                     {
